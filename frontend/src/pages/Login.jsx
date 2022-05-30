@@ -26,7 +26,6 @@ function Login() {
 
   useEffect(() => {
     if (isError) {
-      console.log("Hello");
       toast.error(message);
     }
 
